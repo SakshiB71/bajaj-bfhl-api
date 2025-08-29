@@ -86,6 +86,6 @@ app.post('/bfhl', (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Bajaj BFHL API running on port ${port}`);
 });
